@@ -1,7 +1,8 @@
 let h1 = document.querySelector("h1").innerText = "Productos";
 
-let array = [];
 
+function cards () {
+  let array = [];
 for (let i = 1; i < 10; i++) {
     const card = `<div class="card" style="width: 18rem;">
   <img src="https://66d9ee6caa07a954166f10ed--gregarious-melba-cacdba.netlify.app/${i}.jpg" class="card-img-top" alt="imagen ${i}" style="object-fit: cover; width: 100%; height: 150px;"/>
@@ -14,3 +15,5 @@ for (let i = 1; i < 10; i++) {
 array.push(card);
 } 
 document.querySelector('.container').innerHTML = array.join("");
+}
+cards();
