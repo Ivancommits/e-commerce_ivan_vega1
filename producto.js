@@ -18,4 +18,4 @@ const card1 = `<div class="card" style="width: 18rem;">
     <a href="#" class="btn btn-primary">Go somewhere</a>
   </div>
 </div>`
-document.querySelector(".Producto").innerHTML = card1
+document.querySelector(".Producto").innerHTML = card1;
