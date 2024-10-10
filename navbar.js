@@ -26,10 +26,10 @@ let menu = `<nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme=
                 </ul>
               </li>
             </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Buscar</button>
-            </form>
+              <div class="d-flex" role="search">
+        <input class="form-control me-2 input" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success boton" type="submit">Search</button>
+              </div>
           </div>
         </div>
         <div class="Instrumentos"> 
@@ -43,3 +43,4 @@ for (let i = 0; i < categorias.length; i++) {
 array.push(categoria);
 } 
 document.querySelector('.Instrumentos').innerHTML = array.join("");
+
