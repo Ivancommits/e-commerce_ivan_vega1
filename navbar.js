@@ -2,7 +2,7 @@ let categorias = ["guitarras", "amplificadores", "bajos"];
 let array = [];
 let menu = `<nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Hit Sounds</a>
+          <a class="navbar-brand" href="./index.html">Hit Sounds</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -30,6 +30,9 @@ let menu = `<nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme=
         <input class="form-control me-2 input" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-success boton" type="submit">Search</button>
               </div>
+              <div>
+              <a href="./index.html">X</a>
+              </div>
           </div>
         </div>
         <div class="Instrumentos"> 
@@ -39,7 +42,7 @@ let menu = `<nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme=
 document.querySelector("header").innerHTML = menu;
 
 for (let i = 0; i < categorias.length; i++) {
-    const categoria = `<a href="#" class="btn btn-primary">${categorias[i]}</a>`;
+    const categoria = `<button class="btn btn-primary"><a href="#">${categorias[i]}</a></button>`;
 array.push(categoria);
 } 
 document.querySelector('.Instrumentos').innerHTML = array.join("");
