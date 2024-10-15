@@ -360,7 +360,7 @@ let data = [{
   "Detail": "Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.",
   "img": "http://dummyimage.com/183x100.png/ff4444/ffffff",
   "price": 4,
-  "stock": 59
+  "stock": 58
 }]
 ;
 

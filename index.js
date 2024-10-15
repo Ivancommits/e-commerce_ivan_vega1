@@ -1,7 +1,7 @@
 let h1 = document.querySelector("h1").innerText = "Productos";
 let data = [{
   "id": 1,
-  "Guitar": "Amy's O (a.k.a. Amy's Orgasm)",
+  "Guitar": "Stratocaster",
   "Detail": "Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.\n\nSed ante. Vivamus tortor. Duis mattis egestas metus.",
   "img": "http://dummyimage.com/173x100.png/ff4444/ffffff",
   "price": 31,
