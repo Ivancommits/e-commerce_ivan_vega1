@@ -42,7 +42,7 @@ let menu = `<nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme=
 document.querySelector("header").innerHTML = menu;
 
 for (let i = 0; i < categorias.length; i++) {
-    const categoria = `<button class="btn btn-primary"><a href="#">${categorias[i]}</a></button>`;
+    const categoria = `<button class="btn btn-primary category"><a href="#">${categorias[i]}</a></button>`;
 array.push(categoria);
 } 
 document.querySelector('.Instrumentos').innerHTML = array.join("");

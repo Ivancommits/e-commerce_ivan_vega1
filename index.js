@@ -62,7 +62,7 @@ let data = [{
   "img": "http://dummyimage.com/102x100.png/5fa2dd/ffffff",
   "price": 76,
   "stock": 55,
-  "category": "Amplificadores"
+  "category": "amplificadores"
 }, {
   "id": 9,
   "title": "I Love, You Love (Ja milujem, ty milujes)",
@@ -70,7 +70,7 @@ let data = [{
   "img": "http://dummyimage.com/173x100.png/cc0000/ffffff",
   "price": 18,
   "stock": 76,
-  "category": "Amplificadores"
+  "category": "amplificadores"
 }, {
   "id": 10,
   "title": "Island of Dr. Moreau, The",
@@ -78,7 +78,7 @@ let data = [{
   "img": "http://dummyimage.com/240x100.png/ff4444/ffffff",
   "price": 83,
   "stock": 54,
-  "category": "Amplificadores"
+  "category": "amplificadores"
 }, {
   "id": 11,
   "title": "Exit to Eden",
@@ -86,7 +86,7 @@ let data = [{
   "img": "http://dummyimage.com/158x100.png/5fa2dd/ffffff",
   "price": 88,
   "stock": 58,
-  "category": "Amplificadores"
+  "category": "amplificadores"
 }, {
   "id": 12,
   "title": "Robin Hood",
@@ -94,7 +94,7 @@ let data = [{
   "img": "http://dummyimage.com/237x100.png/ff4444/ffffff",
   "price": 67,
   "stock": 17,
-  "category": "Amplificadores"
+  "category": "amplificadores"
 }, {
   "id": 13,
   "title": "Bugmaster (Mushishi)",
@@ -102,7 +102,7 @@ let data = [{
   "img": "http://dummyimage.com/245x100.png/5fa2dd/ffffff",
   "price": 59,
   "stock": 22,
-  "category": "Amplificadores"
+  "category": "amplificadores"
 }, {
   "id": 14,
   "title": "Carey Treatment, The",
@@ -110,7 +110,7 @@ let data = [{
   "img": "http://dummyimage.com/146x100.png/cc0000/ffffff",
   "price": 66,
   "stock": 21,
-  "category": "Amplificadores"
+  "category": "amplificadores"
 }, {
   "id": 15,
   "title": "Song of the South",
@@ -118,7 +118,7 @@ let data = [{
   "img": "http://dummyimage.com/134x100.png/dddddd/000000",
   "price": 55,
   "stock": 76,
-  "category": "Amplificadores"
+  "category": "amplificadores"
 }, {
   "id": 16,
   "title": "I Capture the Castle",
@@ -126,7 +126,7 @@ let data = [{
   "img": "http://dummyimage.com/106x100.png/ff4444/ffffff",
   "price": 19,
   "stock": 98,
-  "category": "Amplificadores"
+  "category": "amplificadores"
 }, {
   "id": 17,
   "title": "Hero (Ying xiong)",
@@ -135,14 +135,14 @@ let data = [{
   "price": 24,
   "stock": 2
 ,
-"category": "Amplificadores"}, {
+"category": "amplificadores"}, {
   "id": 18,
   "title": "Around the World",
   "Detail": "Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.",
   "img": "http://dummyimage.com/179x100.png/cc0000/ffffff",
   "price": 76,
   "stock": 43,
-  "category": "Amplificadores"
+  "category": "amplificadores"
 }, {
   "id": 19,
   "title": "Tales from Earthsea (Gedo Senki)",
@@ -150,7 +150,7 @@ let data = [{
   "img": "http://dummyimage.com/148x100.png/5fa2dd/ffffff",
   "price": 62,
   "stock": 79,
-  "category": "Amplificadores"
+  "category": "amplificadores"
 }, {
   "id": 20,
   "title": "Eureka (Yurîka)",
@@ -241,3 +241,31 @@ function buscadorf() {
 
 let botonBuscador = document.querySelector(".boton");  
 botonBuscador.addEventListener("click", buscadorf);
+
+let botonesCateg = document.querySelectorAll(".category");
+for (const botonData of botonesCateg) {
+  botonData.addEventListener("click", () => {
+    botones(botonData.innerText);
+  })
+}
+
+function botones(category) {
+let dataFiltered = data.filter((producto) => producto.category == category);
+let busqueda = dataFiltered.map((producto) => {
+  if(producto.category === category){
+   return `<div class="card" style="width: 18rem;">
+  <img src="${producto.img}" class="card-img-top" alt="imagen ${producto.id}" style="object-fit: cover; width: 100%; height: 150px;"/>
+  <div class="card-body">
+    <h5 class="card-title">${producto.title}</h5>
+    <p class="card-text">${producto.Detail}</p>
+    <a href="producto.html?prod=${producto.id}" class="btn btn-primary">Ver más</a>
+    <p class="card-text">${producto.price}</p>
+    <p class="card-text">${producto.stock}</p>
+    <a href="./producto.html?id=${producto.id}" class="."><button></button></a>
+    <p class="category">${producto.category}</p>
+  </div>
+</div>`
+  } 
+}) 
+document.querySelector(".container").innerHTML = busqueda.join("");
+};
