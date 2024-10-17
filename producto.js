@@ -13,203 +13,200 @@ let prod = new Producto("Mustang", "muy caro", 1, 100000000, "https://66d9ee6caa
 
 let data = [{
   "id": 1,
-  "title": "Amy's O",
-  "Detail": "Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.\n\nSed ante. Vivamus tortor. Duis mattis egestas metus.",
-  "img": "http://dummyimage.com/173x100.png/ff4444/ffffff",
-  "price": 31,
-  "stock": 31,
+  "title": "Guitarra Criolla Clasica Color Negro",
+  "Detail": "Guitarra Criolla Clásica en diversos colores, incluye funda",
+  "img": "https://http2.mlstatic.com/D_NQ_NP_774542-MLU75918870442_042024-O.webp",
+  "price": "$ 81.278" ,
+  "stock":"Stock: 45",
   "category": "guitarras"
 }, {
   "id": 2,
-  "title": "My Name Is Julia Ross",
-  "Detail": "Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.\n\nDuis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.\n\nIn sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.",
-  "img": "http://dummyimage.com/247x100.png/5fa2dd/ffffff",
-  "price": 52,
-  "stock": 66,
+  "title": "Guitarra Acústica Parquer Master T",
+  "Detail": "Disfrutá con esta guitarra Parquer de la conexión con la música. Está diseñada para aficionados y profesionales. Con este instrumento descubrirás nuevos acordes, entonarás tus canciones y disfrutarás de la vida musical. Un modelo para cada guitarrista. La tapa de abeto genera un tono brillante y claro, incluso en los registros más agudos. Calidad que se hace notar.",
+  "img": "https://http2.mlstatic.com/D_NQ_NP_619349-MLU73600344414_122023-O.webp",
+  "price": "$282.281",
+  "stock":"Stock: 45",
   "category": "guitarras"
 }, {
   "id": 3,
-  "title": "Watch, The",
-  "Detail": "Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.\n\nPhasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.",
-  "img": "http://dummyimage.com/243x100.png/cc0000/ffffff",
-  "price": 49,
-  "stock": 62,
+  "title": "Pack Guitarra Acustica Fender Fa-125",
+  "Detail": "El paquete FA-125 ofrece un excelente sonido Fender y un valor tremendo para cualquiera que busque comenzar su viaje musical con el pie derecho. Este paquete incluye una guitarra acústica dreadnought FA-125 de rico sonido, junto con un soporte, afinador digital, púas, un paquete de cuerdas de repuesto y una suscripción gratuita de 90 días a Fender Play con acceso a cientos de lecciones en línea: todo lo que necesitas. Necesitas empezar a jugar al instante.",
+  "img": "https://http2.mlstatic.com/D_NQ_NP_860141-MLU73489147342_122023-O.webp",
+  "price": "$ 327.900",
+  "stock":"Stock: 45",
   "category": "guitarras"
 }, {
   "id": 4,
-  "title": "Crippled Masters (Tian can di que)",
-  "Detail": "Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.\n\nNullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.\n\nIn quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.",
-  "img": "http://dummyimage.com/150x100.png/cc0000/ffffff",
-  "price": 50,
-  "stock": 8
-,
+  "title": "Guitarra eléctrica Fender Player Stratocaster de aliso 2010 3-color",
+  "Detail": "Hablar de Fender es entender la música en todo el mundo y en muchos géneros. Es una de las marcas líderes en definir los sonidos que escuchamos. A su vez, satisface las necesidades de guitarristas al crear productos de calidad y respaldarlos con servicio y estabilidad.",
+  "img": "https://http2.mlstatic.com/D_NQ_NP_668933-MLA74781913203_022024-O.webp",
+  "price": "$ 2.718.230",
+  "stock":"Stock: 50",
 "category": "guitarras"}, {
   "id": 5,
-  "title": "Company of Wolves, The",
-  "Detail": "In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.\n\nAliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.",
-  "img": "http://dummyimage.com/132x100.png/5fa2dd/ffffff",
-  "price": 69,
-  "stock": 83,
+  "title": "Guitarra eléctrica Squier by Fender Bullet Stratocaster HT",
+  "Detail": "Disfrutá con esta guitarra Squier by Fender Bullet de la conexión con la música. Con este instrumento descubrirás nuevos acordes, entonarás tus canciones y disfrutarás de la vida musical. Explorá, amplificá tu creatividad y desarrollá tu pasión.",
+  "img": "https://http2.mlstatic.com/D_NQ_NP_889545-MLU75128427037_032024-O.webp",
+  "price": "$ 446.975",
+  "stock":"Stock: 5",
   "category": "guitarras"
 }, {
   "id": 6,
-  "title": "Beach Girls and the Monster, The",
-  "Detail": "Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.\n\nIn hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.\n\nAliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.",
-  "img": "http://dummyimage.com/137x100.png/dddddd/000000",
-  "price": 82,
-  "stock": 9
-,
+  "title": "Guitarra Eléctrica Newen Frizz Lenga Maciza Patagónica",
+  "Detail": "Se caracteriza por su exclusivo y propio diseño. Su característico sonido se obtiene desde sus micrófonos Paradynamic y su madera maciza. Este cuerpo totalmente construido de madera solida de la Patagonia, le proporciona una sonoridad muy rica en armónicos y sustain. El mango construido en maple con trastera de palo rosa posee un alma de acero que le otorga mayor estabilidad en la calibración y afinación.",
+  "img": "https://http2.mlstatic.com/D_NQ_NP_785302-MLA53367428738_012023-O.webp",
+  "price": "$ 195.800",
+  "stock":"Stock: 4",
 "category": "guitarras"}, {
   "id": 7,
-  "title": "Junior Prom",
-  "Detail": "Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.",
-  "img": "http://dummyimage.com/205x100.png/dddddd/000000",
-  "price": 88,
-  "stock": 13,
+  "title": "Guitarra eléctrica Gibson Skay Collection SG",
+  "Detail": "Gibson es una de las marcas con mayor tradición en el mercado: más de 100 años en la fabricación de guitarras. Se fundamenta a la calidad, la innovación y la excelencia del sonido para que los amantes de la música disfruten la compañía de una Gibson.",
+  "img": "https://http2.mlstatic.com/D_NQ_NP_987646-MLA74782155663_022024-O.webp",
+  "price": "$ 4.704.512",
+  "stock":"Stock: ¡Última Disponible!",
   "category": "guitarras"
 }, {
   "id": 8,
-  "title": "At First Sight",
-  "Detail": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.\n\nVestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.\n\nDuis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.",
-  "img": "http://dummyimage.com/102x100.png/5fa2dd/ffffff",
-  "price": 76,
-  "stock": 55,
-  "category": "Amplificadores"
+  "title": "Amplificador Ross G10 De 10 Watts Para Guitarra Electrica Color Negro/Amarillo",
+  "Detail": "Con tu amplificador vas a poder mejorar todos los sonidos y encontrar las melodías que estás buscando. Aprovechalo al máximo. Si lo que estás buscando es un equipo más ligero, resistente y potente, este amplificador de tipo transistor es ideal para vos.",
+  "img": "https://http2.mlstatic.com/D_NQ_NP_922590-MLU78482685187_082024-O.webp",
+  "price": "$ 103.990",
+  "stock":"Stock: 15",
+  "category": "amplificadores"
 }, {
   "id": 9,
-  "title": "I Love, You Love (Ja milujem, ty milujes)",
-  "Detail": "Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.\n\nPraesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.",
-  "img": "http://dummyimage.com/173x100.png/cc0000/ffffff",
-  "price": 18,
-  "stock": 76,
-  "category": "Amplificadores"
+  "title": "Amplificador Ross B15 Para Bajo De 15w Color Negro C",
+  "Detail": "Con tu amplificador vas a poder mejorar todos los sonidos y encontrar las melodías que estás buscando. Aprovechalo al máximo. Si lo que estás buscando es un equipo más ligero, resistente y potente, este amplificador de tipo transistor es ideal para vos.",
+  "img": "https://http2.mlstatic.com/D_NQ_NP_917835-MLU78211819458_082024-O.webp",
+  "price": "$ 159.535",
+  "stock":"Stock: 23",
+  "category": "amplificadores"
 }, {
   "id": 10,
-  "title": "Island of Dr. Moreau, The",
-  "Detail": "Fusce consequat. Nulla nisl. Nunc nisl.\n\nDuis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.",
-  "img": "http://dummyimage.com/240x100.png/ff4444/ffffff",
-  "price": 83,
-  "stock": 54,
-  "category": "Amplificadores"
+  "title": "Amplificador Marshall Mg Gold Mg15 Transistor Para Guitarra De 15w Color Negro 220v",
+  "Detail": "Marshall, fabricante líder en el mercado de los instrumentos musicales, acompaña a bandas y músicos en todo el mundo desde 1962. La empresa se destaca no solo por la calidad de sus productos, sino también por el impacto social, haciendo la diferencia para muchas comunidades a través de la música.",
+  "img": "https://http2.mlstatic.com/D_NQ_NP_868315-MLU76720666320_062024-O.webp",
+  "price": "$ 288.744",
+  "stock":"Stock: 45",
+  "category": "amplificadores"
 }, {
   "id": 11,
-  "title": "Exit to Eden",
-  "Detail": "Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.",
-  "img": "http://dummyimage.com/158x100.png/5fa2dd/ffffff",
-  "price": 88,
-  "stock": 58,
-  "category": "Amplificadores"
+  "title": "Amplificador Marshall MG Gold MG30FX Transistor para guitarra de 30W",
+  "Detail": "Marshall, fabricante líder en el mercado de los instrumentos musicales, acompaña a bandas y músicos en todo el mundo desde 1962. La empresa se destaca no solo por la calidad de sus productos, sino también por el impacto social, haciendo la diferencia para muchas comunidades a través de la música.",
+  "img": "https://http2.mlstatic.com/D_NQ_NP_868568-MLU77629909828_072024-O.webp",
+  "price": "$ 485.270",
+  "stock":"Stock: 2",
+  "category": "amplificadores"
 }, {
   "id": 12,
   "title": "Robin Hood",
   "Detail": "Phasellus in felis. Donec semper sapien a libero. Nam dui.\n\nProin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.",
   "img": "http://dummyimage.com/237x100.png/ff4444/ffffff",
-  "price": 67,
-  "stock": 17,
-  "category": "Amplificadores"
+  "price": "$",
+  "stock":"Stock: 45",
+  "category": "amplificadores"
 }, {
   "id": 13,
   "title": "Bugmaster (Mushishi)",
   "Detail": "Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.",
   "img": "http://dummyimage.com/245x100.png/5fa2dd/ffffff",
-  "price": 59,
-  "stock": 22,
-  "category": "Amplificadores"
+  "price": "$",
+  "stock":"Stock: 45",
+  "category": "amplificadores"
 }, {
   "id": 14,
   "title": "Carey Treatment, The",
   "Detail": "Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.",
   "img": "http://dummyimage.com/146x100.png/cc0000/ffffff",
-  "price": 66,
-  "stock": 21,
-  "category": "Amplificadores"
+  "price": "$",
+  "stock":"Stock: 45",
+  "category": "amplificadores"
 }, {
   "id": 15,
   "title": "Song of the South",
   "Detail": "In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.\n\nNulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.\n\nCras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.",
   "img": "http://dummyimage.com/134x100.png/dddddd/000000",
-  "price": 55,
-  "stock": 76,
-  "category": "Amplificadores"
+  "price": "$",
+  "stock":"Stock: 45",
+  "category": "amplificadores"
 }, {
   "id": 16,
   "title": "I Capture the Castle",
   "Detail": "Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.\n\nIn sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.",
   "img": "http://dummyimage.com/106x100.png/ff4444/ffffff",
-  "price": 19,
-  "stock": 98,
-  "category": "Amplificadores"
+  "price": "$",
+  "stock":"Stock: 45",
+  "category": "amplificadores"
 }, {
   "id": 17,
   "title": "Hero (Ying xiong)",
   "Detail": "Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.",
   "img": "http://dummyimage.com/154x100.png/cc0000/ffffff",
-  "price": 24,
-  "stock": 2
-,
-"category": "Amplificadores"}, {
+  "price": "$",
+  "stock":"Stock: 45",
+"category": "amplificadores"}, {
   "id": 18,
   "title": "Around the World",
   "Detail": "Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.",
   "img": "http://dummyimage.com/179x100.png/cc0000/ffffff",
-  "price": 76,
-  "stock": 43,
-  "category": "Amplificadores"
+  "price": "$",
+  "stock":"Stock: 45",
+  "category": "amplificadores"
 }, {
   "id": 19,
   "title": "Tales from Earthsea (Gedo Senki)",
   "Detail": "In congue. Etiam justo. Etiam pretium iaculis justo.",
   "img": "http://dummyimage.com/148x100.png/5fa2dd/ffffff",
-  "price": 62,
-  "stock": 79,
-  "category": "Amplificadores"
+  "price": "$",
+  "stock":"Stock: 45",
+  "category": "amplificadores"
 }, {
   "id": 20,
   "title": "Eureka (Yurîka)",
   "Detail": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\n\nEtiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.\n\nPraesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.",
   "img": "http://dummyimage.com/233x100.png/5fa2dd/ffffff",
-  "price": 43,
-  "stock": 75,
+  "price": "$",
+  "stock":"Stock: 45",
   "category": "amplificadores"
 }, {
   "id": 21,
-  "title": "Kiki",
-  "Detail": "Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.",
-  "img": "http://dummyimage.com/177x100.png/dddddd/000000",
-  "price": 70,
-  "stock": 69,
+  "title": "Bajo Electrico Squier By Fender Sonic Bronco Bass",
+  "Detail": "Marca Fender.",
+  "img": "https://http2.mlstatic.com/D_NQ_NP_616764-MLU73701559951_122023-O.webp",
+  "price": "$ 595.964",
+  "stock":"Stock: 13",
   "category": "bajos"
 }, {
   "id": 22,
   "title": "Memento Mori (Yeogo goedam II)",
   "Detail": "Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.",
   "img": "http://dummyimage.com/126x100.png/dddddd/000000",
-  "price": 27,
-  "stock": 11,
+  "price": "$",
+  "stock":"Stock: 45",
   "category": "bajos"
 }, {
   "id": 23,
   "title": "Coronado",
   "Detail": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
   "img": "http://dummyimage.com/133x100.png/5fa2dd/ffffff",
-  "price": 18,
-  "stock": 92,
+  "price": "$",
+  "stock":"Stock: 45",
   "category": "bajos"
 }, {
   "id": 24,
   "title": "Red Salute",
   "Detail": "Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.\n\nPellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.\n\nCum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
   "img": "http://dummyimage.com/142x100.png/dddddd/000000",
-  "price": 91,
-  "stock": 31,
+  "price": "$",
+  "stock":"Stock: 45",
   "category": "bajos"
 }, {
   "id": 25,
   "title": "Babar The Movie",
   "Detail": "In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.\n\nNulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.\n\nCras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.",
   "img": "http://dummyimage.com/120x100.png/ff4444/ffffff",
-  "price": 85,
-  "stock": 45,
+  "price": "$",
+  "stock":"Stock: 45",
   "category": "bajos"
 }];
 
@@ -217,7 +214,7 @@ let data = [{
 let prodEncontrado = data.find((producto) => producto.id === id); 
 
 const card1 = `<div class="card" style="width: 18rem;">
-  <img src="${prodEncontrado.img}" class="card-img-top" alt="imagen ${prodEncontrado.id}" style="object-fit: cover; width: 100%; height: 150px;"/>
+  <img src="${prodEncontrado.img}" class="card-img-top" alt="imagen ${prodEncontrado.id}" style="object-fit: contain; width: 100%; height: 150px;"/>
   <div class="card-body">
     <h5 class="card-title">${prodEncontrado.title}</h5>
     <p class="card-text">${prodEncontrado.Detail}</p>
