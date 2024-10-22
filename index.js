@@ -200,7 +200,7 @@ let data = [{
 
 function cards () {
 
-let cards = data.map((producto) => `<div class="card" style="width: 18rem;">
+let cards = data.map((producto) => `<div class="card" style="width: 20rem;">
   <img src="${producto.img}" class="card-img-top" alt="imagen ${producto.id}" style="object-fit: contain; width: 100%; height: 150px;"/>
   <div class="card-body">
     <h5 class="card-title">${producto.title}</h5>
@@ -259,7 +259,7 @@ let busqueda = dataFiltered.map((producto) => {
     <p class="card-text">${producto.price}</p>
     <p class="card-text">${producto.stock}</p>
     <a href="./producto.html?id=${producto.id}" class="."><button></button></a>
-    <p class="category">${producto.category}</p>
+
   </div>
 </div>`
   } 
