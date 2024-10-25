@@ -208,7 +208,6 @@ let cards = data.map((producto) => `<div class="card" style="width: 20rem;">
     <a href="producto.html?prod=${producto.id}" class="btn btn-primary">Ver más</a>
     <p class="card-text">${producto.price}</p>
     <p class="card-text">${producto.stock}</p>
-    <a href="./producto.html?id=${producto.id}" class="."><button></button></a>
   </div>
 </div>`);
 document.querySelector(".container").innerHTML = cards.join("");
@@ -229,7 +228,6 @@ function buscadorf() {
     <a href="producto.html?prod=${producto.id}" class="btn btn-primary">Ver más</a>
     <p class="card-text">${producto.price}</p>
     <p class="card-text">${producto.stock}</p>
-    <a href="./producto.html?id=${producto.id}" class="."><button></button></a>
   </div>
 </div>`);
   document.querySelector(".container").innerHTML = cards.join("");
@@ -258,7 +256,6 @@ let busqueda = dataFiltered.map((producto) => {
     <a href="producto.html?prod=${producto.id}" class="btn btn-primary">Ver más</a>
     <p class="card-text">${producto.price}</p>
     <p class="card-text">${producto.stock}</p>
-    <a href="./producto.html?id=${producto.id}" class="."><button></button></a>
 
   </div>
 </div>`

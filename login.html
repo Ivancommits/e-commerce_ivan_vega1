@@ -17,6 +17,7 @@
    }
   </style>
   <title>Login</title>
+  <script src="./ahout.js"></script>
  </head>
  <body>
   <form>
@@ -30,27 +31,6 @@
    </div>
    <button type="submit" class="btn btn-primary">Submit</button>
   </form>
-  <script>
-    let uSession = localStorage.getItem("session");
-    if (uSession) {
-        window.location.href = "./index.html";
-    } 
-    let uForm = document.querySelector("form");
-    const cEmail = "pepe@gmail.com";
-    const cPassword = "pepe321";
-    uForm.addEventListener("submit", (e)=> {
-        e.preventDefault();
-        let formData = new FormData(uForm);  
-        let uEmail = formData.get("email");
-        let uPassword = formData.get("password");
-        console.log(uPassword, uEmail)
-        if (cEmail === uEmail && cPassword === uPassword) {
-            localStorage.setItem("session", uEmail);
-            window.location.href = "./index.html";
-        } else {
-            alert("Las credenciales son incorrectas!");
-        }
-    });
-  </script>
+  <script src="./login.js"></script>
  </body>
 </html>

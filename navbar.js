@@ -38,6 +38,9 @@ let menu = `<nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme=
         <div class="Instrumentos"> 
             
         </div>
+        <div>
+        ${localStorage.getItem("session")?`<button class="btn btn-outline-success" onclick = "closeSession()">Cerrar sesión</button>`: `<a href="./login.html"><button class="btn btn-outline-success"> Iniciar sesión</button></a>`}
+        </div>
       </nav>`;
 document.querySelector("header").innerHTML = menu;
 
@@ -46,4 +49,9 @@ for (let i = 0; i < categorias.length; i++) {
 array.push(categoria);
 } 
 document.querySelector('.Instrumentos').innerHTML = array.join("");
+
+function closeSession() {
+  localStorage.clear();
+  location.href="./index.html";
+}
 

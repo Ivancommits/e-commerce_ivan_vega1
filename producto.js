@@ -1,3 +1,4 @@
+
 let id = parseInt(window.location.search.split("=")[1])
 class Producto {
     constructor(titulo, detalle, stock, precio, imagen) {
@@ -212,7 +213,7 @@ let data = [{
 
 
 let prodEncontrado = data.find((producto) => producto.id === id); 
-
+let counter = 0;
 const card1 = `<div class="card" style="width: 18rem;">
   <img src="${prodEncontrado.img}" class="card-img-top" alt="imagen ${prodEncontrado.id}" style="object-fit: contain; width: 100%; height: 150px;"/>
   <div class="card-body">
@@ -220,9 +221,13 @@ const card1 = `<div class="card" style="width: 18rem;">
     <p class="card-text">${prodEncontrado.Detail}</p>
     <p class="card-text">${prodEncontrado.price}</p>
     <p class="card-text">${prodEncontrado.stock}</p>
-    <a href="./producto.html?prod=${prodEncontrado.id}" class="."><button></button></a>
+    ${localStorage.getItem("session")?
+       `
+       <button class="disminuir" onclick = "disminuir()">-</button><span>${counter}</span><button class="aumentar" onclick = "aumentar()">+</button>
+       <button>Comprar</button>`
+           
+       : `<a href="./login.html"><button class="btn btn-outline-success">Para comprar, debes iniciar sesión</button></a>`}
   </div>
 </div>`;
 
 document.querySelector(".container").innerHTML = card1;
-
