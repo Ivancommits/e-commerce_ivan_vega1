@@ -213,7 +213,6 @@ let data = [{
 
 
 let prodEncontrado = data.find((producto) => producto.id === id); 
-let counter = 0;
 const card1 = `<div class="card" style="width: 18rem;">
   <img src="${prodEncontrado.img}" class="card-img-top" alt="imagen ${prodEncontrado.id}" style="object-fit: contain; width: 100%; height: 150px;"/>
   <div class="card-body">
@@ -223,11 +222,54 @@ const card1 = `<div class="card" style="width: 18rem;">
     <p class="card-text">${prodEncontrado.stock}</p>
     ${localStorage.getItem("session")?
        `
-       <button class="disminuir" onclick = "disminuir()">-</button><span>${counter}</span><button class="aumentar" onclick = "aumentar()">+</button>
-       <button>Comprar</button>`
+      <div class="input-group mb-3">
+            <button class="btn btn-outline-secondary" type="button" id="button-addon1" onclick="restButton()">-</button>
+            <input class="form-control text-center shadow-none" id="number-counter" value="1" type="text"/>
+            <button class="btn btn-outline-secondary" type="button" id="button-addon2" onclick="addButton()">+</button>
+          </div>
+          <button type="button" class="btn btn-dark" onclick="addProductToCart()">Añadir al carrito</button>`
            
        : `<a href="./login.html"><button class="btn btn-outline-success">Para comprar, debes iniciar sesión</button></a>`}
   </div>
 </div>`;
 
+let cart = JSON.parse(localStorage.getItem("cart"));
+if(!cart){ 
+  cart = [];
+}
+
+let input1 = document.querySelector("#producto main input");
+function addButton() {
+  console.log(input1.value)
+/*   input.value = String(Number(input.value) + 1); */
+  input1.value = "pepe";
+}
 document.querySelector(".container").innerHTML = card1;
+ function restButton() {
+ /*  if (Number(counter.value > 1)) {
+    counter.value = Number(counter.value1) -1;
+  }
+  counter -= 1
+  numberCounter.innerHTML = counter */
+}
+/*
+localStorage.setItem("cart", JSON.stringify(cart));
+
+
+
+function addProductToCart() {
+if(cart.length === 0) {
+  if(counter > prodEncontrado.stock) {
+    alert("No hay suficiente stock");
+  }
+  cart.push({prod:prodEncontrado, quantity: counter})
+} 
+cart.map((producto) =>  {
+  const newQuantity = product.quantity + counter;
+  if(producto.prod.id === prodEncontrado.id && newQuantity < producto.prod.stock) {
+    return{
+
+    }
+  }
+})
+} */
