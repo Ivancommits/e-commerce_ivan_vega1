@@ -1,42 +1,24 @@
 let categorias = ["guitarras", "amplificadores", "bajos"];
 let array = [];
-let menu = `<nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+let menu = `<link href="./styles.css" rel="stylesheet">
+<nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="./index.html">Hit Sounds</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Productos</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Nosotros
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Empleo</a></li>
-                  <li><a class="dropdown-item" href="#">Dónde encontrarnos</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Soporte</a></li>
-                </ul>
-              </li>
-            </ul>
               <div class="d-flex" role="search">
         <input class="form-control me-2 input" type="search" placeholder="Search" aria-label="Search">
+        <a href="./index.html" id="botonborrar">X</a>
         <button class="btn btn-outline-success boton" type="submit">Search</button>
               </div>
-              <div>
-              <a href="./index.html">X</a>
-              </div>
+        <div>
+        <p class="username">Bienvenido, ${localStorage.getItem("session")}
+        </div>
+        <span></span><li><a href="cart.html"><img height="25" src="cart.png" alt="Comprar"/></a><b class="cantidadproducto">${localStorage.getItem("quantity")}</b></li></span>
           </div>
         </div>
-        <div class="Instrumentos"> 
-            
+        <div class="Instrumentos">    
         </div>
         <div>
         ${localStorage.getItem("session")?`<button class="btn btn-outline-success" onclick = "closeSession()">Cerrar sesión</button>`: `<a href="./login.html"><button class="btn btn-outline-success"> Iniciar sesión</button></a>`}
