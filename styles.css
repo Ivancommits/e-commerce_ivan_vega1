@@ -9,3 +9,9 @@
     text-decoration-line: none;
     color: white;
 }
+.Instrumentos {
+    width: 400px;
+    display: flex;
+    gap: 8px;
+    
+}

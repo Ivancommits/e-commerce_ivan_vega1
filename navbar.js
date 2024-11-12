@@ -1,4 +1,4 @@
-let categorias = ["guitarras", "amplificadores", "bajos"];
+let categorias = ["Guitarras", "Amplificadores", "Bajos"];
 let array = [];
 let menu = `<link href="./styles.css" rel="stylesheet">
 <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
@@ -15,7 +15,7 @@ let menu = `<link href="./styles.css" rel="stylesheet">
         <div>
         <p class="username">Bienvenido, ${localStorage.getItem("session")}
         </div>
-        <span></span><li><a href="cart.html"><img height="25" src="cart.png" alt="Comprar"/></a><b class="cantidadproducto">${localStorage.getItem("quantity")}</b></li></span>
+        <span></span><li><a href="cart.html"><img height="25" src="cart.png" alt="Comprar"/></a><b class="cantidadproducto">${localStorage.getItem("quantity")? localStorage.getItem("quantity") : "0"}</b></li></span>
           </div>
         </div>
         <div class="Instrumentos">    
@@ -27,7 +27,7 @@ let menu = `<link href="./styles.css" rel="stylesheet">
 document.querySelector("header").innerHTML = menu;
 
 for (let i = 0; i < categorias.length; i++) {
-    const categoria = `<button class="btn btn-primary category"><a href="#">${categorias[i]}</a></button>`;
+    const categoria = `<button class="btn btn-primary category" id="categorias"><a href="#">${categorias[i]}</a></button>`;
 array.push(categoria);
 } 
 document.querySelector('.Instrumentos').innerHTML = array.join("");

@@ -213,7 +213,12 @@ let cards = data.map((producto) => `<div class="card" style="width: 20rem;">
 document.querySelector(".container").innerHTML = cards.join("");
 }
 
-cards();
+document.querySelector(".container").innerHTML = "Cargando...";
+const loadingPromise = new Promise((resolve, reject) => {
+  setTimeout(() => {
+    resolve(cards())
+  }, 3000)
+}) 
 
 function buscadorf() {
   let inputBuscador = document.querySelector(".input");
@@ -263,3 +268,4 @@ let busqueda = dataFiltered.map((producto) => {
 }) 
 document.querySelector(".container").innerHTML = busqueda.join("");
 };
+

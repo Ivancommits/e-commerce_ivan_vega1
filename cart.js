@@ -1,5 +1,6 @@
+let carrito = localStorage.getItem("cart");
 function getCards() {
-    const list = cards.map(
+    const list = carrito.map(
         card => ` <div class="col-xl-8" id="cards">
      <div class="card border shadow-none">
       <div class="card-body">
@@ -17,13 +18,13 @@ function getCards() {
           <div class="col-md-4">
            <div class="mt-3">
             <p class="text-muted mb-2">Precio</p>
-            <h5 class="mb-0 mt-2">$450</h5>
+            <h5 class="mb-0 mt-2">${card.prod.price}</h5>
            </div>
           </div>
           <div class="col-md-5">
            <div class="mt-3">
             <p class="text-muted mb-2">Cantidad</p>
-            <h5 class="mb-0 mt-2">2</h5>
+            <h5 class="mb-0 mt-2">${card.prod.stock}</h5>
            </div>
           </div>
           <div class="col-md-3">
