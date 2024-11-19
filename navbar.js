@@ -1,3 +1,8 @@
+let cantidadTotal = 0;
+let sessionCart = JSON.parse(localStorage.getItem("cart"))
+for (let y = 0; y < sessionCart.length; y++) {
+ cantidadTotal += sessionCart[y].quantity;
+}
 let categorias = ["Guitarras", "Amplificadores", "Bajos"];
 let array = [];
 let menu = `<link href="./styles.css" rel="stylesheet">
@@ -15,7 +20,7 @@ let menu = `<link href="./styles.css" rel="stylesheet">
         <div>
         <p class="username">Bienvenido, ${localStorage.getItem("session")}
         </div>
-        <span></span><li><a href="cart.html"><img height="25" src="cart.png" alt="Comprar"/></a><b class="cantidadproducto">${localStorage.getItem("quantity")? localStorage.getItem("quantity") : "0"}</b></li></span>
+        <span></span><li><a href="cart.html"><img height="25" src="cart.png" alt="Comprar"/></a><b class="cantidadproducto">${sessionCart ? cantidadTotal : "0"}</b></li></span>
           </div>
         </div>
         <div class="Instrumentos">    
@@ -37,3 +42,30 @@ function closeSession() {
   location.href="./index.html";
 }
 
+let botonesCateg = document.querySelectorAll(".category");
+for (const botonData of botonesCateg) {
+  botonData.addEventListener("click", () => {
+    console.log(botonData.innerText)
+    botones(botonData.innerText);
+  })
+}
+
+function botones(category) {
+let dataFiltered = data.filter((producto) => producto.category == category);
+let busqueda = dataFiltered.map((producto) => {
+  if(producto.category === category){
+   return `<div class="card" style="width: 18rem;">
+  <img src="${producto.img}" class="card-img-top" alt="imagen ${producto.id}" style="object-fit: contain; width: 100%; height: 150px;"/>
+  <div class="card-body">
+    <h5 class="card-title">${producto.title}</h5>
+    <p class="card-text">${producto.Detail}</p>
+    <a href="producto.html?prod=${producto.id}" class="btn btn-primary">Ver más</a>
+    <p class="card-text">${producto.price}</p>
+    <p class="card-text">${producto.stock}</p>
+
+  </div>
+</div>`
+  } 
+}) 
+document.querySelector(".container").innerHTML = busqueda.join("");
+};

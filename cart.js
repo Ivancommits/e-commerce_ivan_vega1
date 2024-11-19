@@ -1,4 +1,5 @@
-let carrito = localStorage.getItem("cart");
+let carrito = JSON.parse(localStorage.getItem("cart"));
+
 function getCards() {
     const list = carrito.map(
         card => ` <div class="col-xl-8" id="cards">
@@ -44,4 +45,6 @@ function getCards() {
       </div>
      </div>`
     )
+document.querySelector(".compras").innerHTML = list.join("");
 }          
+getCards();

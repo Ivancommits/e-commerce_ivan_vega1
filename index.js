@@ -6,7 +6,7 @@ let data = [{
   "img": "https://http2.mlstatic.com/D_NQ_NP_774542-MLU75918870442_042024-O.webp",
   "price": "$ 81.278" ,
   "stock":"Stock: 11",
-  "category": "guitarras"
+  "category": "Guitarras"
 }, {
   "id": 2,
   "title": "Guitarra Acústica Parquer Master T",
@@ -14,7 +14,7 @@ let data = [{
   "img": "https://http2.mlstatic.com/D_NQ_NP_619349-MLU73600344414_122023-O.webp",
   "price": "$282.281",
   "stock":"Stock: 16",
-  "category": "guitarras"
+  "category": "Guitarras"
 }, {
   "id": 3,
   "title": "Pack Guitarra Acustica Fender Fa-125",
@@ -22,7 +22,7 @@ let data = [{
   "img": "https://http2.mlstatic.com/D_NQ_NP_860141-MLU73489147342_122023-O.webp",
   "price": "$ 327.900",
   "stock":"Stock: 19",
-  "category": "guitarras"
+  "category": "Guitarras"
 }, {
   "id": 4,
   "title": "Guitarra eléctrica Fender Player Stratocaster de aliso 2010 3-color",
@@ -30,14 +30,14 @@ let data = [{
   "img": "https://http2.mlstatic.com/D_NQ_NP_668933-MLA74781913203_022024-O.webp",
   "price": "$ 2.718.230",
   "stock":"Stock: 23",
-"category": "guitarras"}, {
+"category": "Guitarras"}, {
   "id": 5,
   "title": "Guitarra eléctrica Squier by Fender Bullet Stratocaster HT",
   "Detail": "Disfrutá con esta guitarra Squier by Fender Bullet de la conexión con la música. Con este instrumento descubrirás nuevos acordes, entonarás tus canciones y disfrutarás de la vida musical. Explorá, amplificá tu creatividad y desarrollá tu pasión.",
   "img": "https://http2.mlstatic.com/D_NQ_NP_889545-MLU75128427037_032024-O.webp",
   "price": "$ 446.975",
   "stock":"Stock: 5",
-  "category": "guitarras"
+  "category": "Guitarras"
 }, {
   "id": 6,
   "title": "Guitarra Eléctrica Newen Frizz Lenga Maciza Patagónica",
@@ -45,14 +45,14 @@ let data = [{
   "img": "https://http2.mlstatic.com/D_NQ_NP_785302-MLA53367428738_012023-O.webp",
   "price": "$ 195.800",
   "stock":"Stock: 4",
-"category": "guitarras"}, {
+"category": "Guitarras"}, {
   "id": 7,
   "title": "Guitarra eléctrica Gibson Skay Collection SG",
-  "Detail": "Gibson es una de las marcas con mayor tradición en el mercado: más de 100 años en la fabricación de guitarras. Se fundamenta a la calidad, la innovación y la excelencia del sonido para que los amantes de la música disfruten la compañía de una Gibson.",
+  "Detail": "Gibson es una de las marcas con mayor tradición en el mercado: más de 100 años en la fabricación de Guitarras. Se fundamenta a la calidad, la innovación y la excelencia del sonido para que los amantes de la música disfruten la compañía de una Gibson.",
   "img": "https://http2.mlstatic.com/D_NQ_NP_987646-MLA74782155663_022024-O.webp",
   "price": "$ 4.704.512",
   "stock":"Stock: ¡Última Disponible!",
-  "category": "guitarras"
+  "category": "Guitarras"
 }, {
   "id": 8,
   "title": "Amplificador Ross G10 De 10 Watts Para Guitarra Electrica Color Negro/Amarillo",
@@ -60,7 +60,7 @@ let data = [{
   "img": "https://http2.mlstatic.com/D_NQ_NP_922590-MLU78482685187_082024-O.webp",
   "price": "$ 103.990",
   "stock":"Stock: 15",
-  "category": "amplificadores"
+  "category": "Amplificadores"
 }, {
   "id": 9,
   "title": "Amplificador Ross B15 Para Bajo De 15w Color Negro C",
@@ -68,7 +68,7 @@ let data = [{
   "img": "https://http2.mlstatic.com/D_NQ_NP_917835-MLU78211819458_082024-O.webp",
   "price": "$ 159.535",
   "stock":"Stock: 23",
-  "category": "amplificadores"
+  "category": "Amplificadores"
 }, {
   "id": 10,
   "title": "Amplificador Marshall Mg Gold Mg15 Transistor Para Guitarra De 15w Color Negro 220v",
@@ -76,7 +76,7 @@ let data = [{
   "img": "https://http2.mlstatic.com/D_NQ_NP_868315-MLU76720666320_062024-O.webp",
   "price": "$ 288.744",
   "stock":"Stock: 45",
-  "category": "amplificadores"
+  "category": "Amplificadores"
 }, {
   "id": 11,
   "title": "Amplificador Marshall MG Gold MG30FX Transistor para guitarra de 30W",
@@ -84,7 +84,7 @@ let data = [{
   "img": "https://http2.mlstatic.com/D_NQ_NP_868568-MLU77629909828_072024-O.webp",
   "price": "$ 485.270",
   "stock":"Stock: 2",
-  "category": "amplificadores"
+  "category": "Amplificadores"
 }, {
   "id": 12,
   "title": "Marshall Mg10 Gold Amplificador Guitarra 10 Watts Distorsion",
@@ -92,7 +92,7 @@ let data = [{
   "img": "https://http2.mlstatic.com/D_NQ_NP_969544-MLU73214355537_122023-O.webp",
   "price": "$ 346.982",
   "stock":"Stock: 6",
-  "category": "amplificadores"
+  "category": "Amplificadores"
 }, {
   "id": 13,
   "title": "Mini Amplificador Guitarra Marshall Ms-4 + Color Negro",
@@ -100,7 +100,7 @@ let data = [{
   "img": "https://http2.mlstatic.com/D_NQ_NP_964288-MLU74132737913_012024-O.webp",
   "price": "$ 116.911",
   "stock":"Stock: 8",
-  "category": "amplificadores"
+  "category": "Amplificadores"
 }, {
   "id": 14,
   "title": "Amplificador De Guitarra Portátil Orange Crush Mini 3w 9v",
@@ -108,7 +108,7 @@ let data = [{
   "img": "https://http2.mlstatic.com/D_NQ_NP_934202-MLA44973568992_022021-O.webp",
   "price": "$ 158.700",
   "stock":"Stock: 23",
-  "category": "amplificadores"
+  "category": "Amplificadores"
 }, {
   "id": 15,
   "title": "Amplificador Laney Richter Rb2 Combo 30w Para Bajo",
@@ -116,7 +116,7 @@ let data = [{
   "img": "https://http2.mlstatic.com/D_NQ_NP_641344-MLA48801929632_012022-O.webp",
   "price": "$ 516.022",
   "stock":"Stock: 8",
-  "category": "amplificadores"
+  "category": "Amplificadores"
 }, {
   "id": 16,
   "title": "Amplificador De Bajo Electrico Sunset Con Potencia De 15w",
@@ -124,7 +124,7 @@ let data = [{
   "img": "https://http2.mlstatic.com/D_NQ_NP_791177-MLA78960278176_092024-O.webp",
   "price": "$",
   "stock":"Stock: 26",
-  "category": "amplificadores"
+  "category": "Amplificadores"
 }, {
   "id": 17,
   "title": "Amplificador Guitarra Eléctrica 10 Watts Distorsión",
@@ -132,14 +132,14 @@ let data = [{
   "img": "https://http2.mlstatic.com/D_NQ_NP_626104-MLA79167733293_092024-O.webp",
   "price": "$100.493",
   "stock":"Stock: 13",
-"category": "amplificadores"}, {
+"category": "Amplificadores"}, {
   "id": 18,
   "title": "Amplificador De Bajo Eléctrico 15w Sunset Series Color Naranja",
   "Detail": "Con tu amplificador vas a poder mejorar todos los sonidos y encontrar las melodías que estás buscando.",
   "img": "https://http2.mlstatic.com/D_NQ_NP_652839-MLU73125315692_122023-O.webp",
   "price": "$ 162.877",
   "stock":"Stock: 18",
-  "category": "amplificadores"
+  "category": "Amplificadores"
 }, {
   "id": 19,
   "title": "Amplificador Marshall MG Gold MG15G Transistor para guitarra de 15W",
@@ -147,7 +147,7 @@ let data = [{
   "img": "https://http2.mlstatic.com/D_NQ_NP_793836-MLU75174595542_032024-O.webp",
   "price": "$ 419.249",
   "stock":"Stock: 18",
-  "category": "amplificadores"
+  "category": "Amplificadores"
 }, {
   "id": 20,
   "title": "Amplificador Marshall Jvm205c Combo Valvular 50w Made In Uk Color Negro/Dorado",
@@ -155,7 +155,7 @@ let data = [{
   "img": "https://http2.mlstatic.com/D_NQ_NP_750665-MLA43361136474_092020-O.webp",
   "price": "$ 2.667.021",
   "stock":"Stock: 29",
-  "category": "amplificadores"
+  "category": "Amplificadores"
 }, {
   "id": 21,
   "title": "Bajo Electrico Squier By Fender Sonic Bronco Bass",
@@ -163,7 +163,7 @@ let data = [{
   "img": "https://http2.mlstatic.com/D_NQ_NP_616764-MLU73701559951_122023-O.webp",
   "price": "$ 595.964",
   "stock":"Stock: 13",
-  "category": "bajos"
+  "category": "Bajos"
 }, {
   "id": 22,
   "title": "Kit Bajo Electrico + Cable + Ampli 10watts + Funda Y Puas",
@@ -171,7 +171,7 @@ let data = [{
   "img": "https://http2.mlstatic.com/D_NQ_NP_712972-MLU78021644988_082024-O.webp",
   "price": "$ 541.599",
   "stock":"Stock: 17",
-  "category": "bajos"
+  "category": "Bajos"
 }, {
   "id": 23,
   "title": "Bajo Electrico Sunset Precision Bass Funda Ampli Cable Puas",
@@ -179,7 +179,7 @@ let data = [{
   "img": "https://http2.mlstatic.com/D_NQ_NP_855074-MLA76640830080_062024-O.webp",
   "price": "$ 350.169",
   "stock":"Stock: 17",
-  "category": "bajos"
+  "category": "Bajos"
 }, {
   "id": 24,
   "title": "Ibanez Gsr200 Bajo Electrico Activo 4",
@@ -187,7 +187,7 @@ let data = [{
   "img": "https://http2.mlstatic.com/D_NQ_NP_948572-MLU73304723790_122023-O.webp",
   "price": "$ 597.999",
   "stock":"Stock: 5",
-  "category": "bajos"
+  "category": "Bajos"
 }, {
   "id": 25,
   "title": "Bajo Electrico 4 Cuerdas Squier By Fender Affinity Bsb",
@@ -195,7 +195,7 @@ let data = [{
   "img": "https://http2.mlstatic.com/D_NQ_NP_901941-MLA53384590012_012023-O.webp",
   "price": "$ 664.297",
   "stock":"Stock: 7",
-  "category": "bajos"
+  "category": "Bajos"
 }];
 
 function cards () {
@@ -223,7 +223,7 @@ const loadingPromise = new Promise((resolve, reject) => {
 function buscadorf() {
   let inputBuscador = document.querySelector(".input");
 
-  
+
   let filterData = data.filter((producto) => producto.title == inputBuscador.value);
   let cards = filterData.map((producto) => `<div class="card" style="width: 18rem;">
   <img src="${producto.img}" class="card-img-top" alt="imagen ${producto.id}" style="object-fit: contain; width: 100%; height: 150px;"/>
@@ -236,36 +236,10 @@ function buscadorf() {
   </div>
 </div>`);
   document.querySelector(".container").innerHTML = cards.join("");
-  
-  };
+};
 
 let botonBuscador = document.querySelector(".boton");  
 botonBuscador.addEventListener("click", buscadorf);
 
-let botonesCateg = document.querySelectorAll(".category");
-for (const botonData of botonesCateg) {
-  botonData.addEventListener("click", () => {
-    botones(botonData.innerText);
-  })
-}
 
-function botones(category) {
-let dataFiltered = data.filter((producto) => producto.category == category);
-let busqueda = dataFiltered.map((producto) => {
-  if(producto.category === category){
-   return `<div class="card" style="width: 18rem;">
-  <img src="${producto.img}" class="card-img-top" alt="imagen ${producto.id}" style="object-fit: contain; width: 100%; height: 150px;"/>
-  <div class="card-body">
-    <h5 class="card-title">${producto.title}</h5>
-    <p class="card-text">${producto.Detail}</p>
-    <a href="producto.html?prod=${producto.id}" class="btn btn-primary">Ver más</a>
-    <p class="card-text">${producto.price}</p>
-    <p class="card-text">${producto.stock}</p>
-
-  </div>
-</div>`
-  } 
-}) 
-document.querySelector(".container").innerHTML = busqueda.join("");
-};
 

@@ -1,4 +1,3 @@
-
 let id = parseInt(window.location.search.split("=")[1])
 class Producto {
     constructor(titulo, detalle, stock, precio, imagen) {
@@ -254,19 +253,37 @@ function addButton() {
   }
 }
 
-localStorage.setItem("cart", JSON.stringify(cart));
+
 
 function addProductToCart() {
+  console.log(cart)
 if(cart.length === 0) {
-  if(input.value > prodEncontrado.stock) {
+  if(parseInt(input.value) > prodEncontrado.stock) {
     alert("No hay suficiente stock");
   } else {
-    cart.push({prod:prodEncontrado, quantity: input.value})
+    cart.push({prod:prodEncontrado, quantity: parseInt(input.value)})
+    return localStorage.setItem("cart", JSON.stringify(cart));
   }
 } 
-cart.findIndex((card1) => card1.prod.id == prodEncontrado.id);
+
+let existingItemIndex = cart.findIndex((card1) => card1.prod.id == prodEncontrado.id);
 const foundItem = cart[existingItemIndex];
+if (!foundItem) {
+  cart.push({prod:prodEncontrado, quantity: parseInt(input.value)})
+    return localStorage.setItem("cart", JSON.stringify(cart));
+}
+if ((foundItem.quantity + parseInt(input.value)) > prodEncontrado.stock) {
+  alert("sin stock!");
+  return
+} 
+foundItem.quantity += parseInt(input.value);
+localStorage.setItem("cart", JSON.stringify(cart));
+Toastify({
+
+  text: "Producto agregado!",
+  
+  duration: 3000
+  
+  }).showToast()
 }
 
-const existingItemIndex = cart.findindex() 
-const foundItem = cart[existingItemIndex];
