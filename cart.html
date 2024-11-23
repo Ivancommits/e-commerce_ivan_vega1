@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+    <script src="/public/isNoAuthRedirectHome.js"></script>
  <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Instrumentario</title>
+  <title>Carrito</title>
   <link rel="icon" type="image/png" href="./assets/favicon.png" />
-  <link
-   href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-   rel="stylesheet"
-   integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-   crossorigin="anonymous"/>
-  <link rel="stylesheet" href="./styles.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="./styles.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+  <link rel="stylesheet" href="/styles.css" type="text/css">
+
   <style>
    #cart .card .me-4 {
     width: 180px;
@@ -25,15 +25,74 @@
     width: 100%;
    }
   </style>
-  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
-
  </head>
  <body id="cart">
- <header></header>
-  <div class="compras">
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html" id="homeButton">
+            <img src="/public/img/logopng-dreamdrive-pagina-removebg.png" alt="DreamDrive" width="60" height="60" class="d-inline-block align-text-center">
+            DreamDrive
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
+        </div>
+      </nav>
+  </header>
+  <main id="cart">
+    <div class="container pt-4">
+      <div class="row">
+          <div class="col-xl-8">
+              <!-- Cart -->
+              <div id="cards">
+                
+              </div>
+
+              <div class="row my-4 align-items-center">
+                  <div class="col-sm-6">
+                      <a href="index.html" class="btn btn-dark rounded-pill">Seguir comprando</a>
+                  </div>
+                  <div class="col-sm-6">
+                      <div class="d-flex flex-row-reverse gap-4">
+                          <button class="btn btn-success p-3 rounded-pill" onclick="finishOrder()">Comprar</button>
+                          <button id="btn-clear-cart" class="btn btn-danger p-3 rounded-pill" onclick="cleanCart()">Clean cart</button>
+                      </div>
+                  </div>
+              </div>
+
+          </div>
+
+          <div class="col-xl-4">
+              <!-- Resumen del pedido -->
+              <div class="mt-5 mt-lg-0">
+                  <div class="card border shadow-none">
+                      <div class="card-header bg-dark border-bottom py-3 px-4">
+                          <h5 class="font-size-16 mb-0 text-white">Order</h5>
+                      </div>
+                      <div class="card-body p-4 pt-2">
+                          <div class="table-responsive">
+                              <table class="table mb-0">
+                                  <tbody>
+                                      <tr class="bg-light">
+                                          <th>Total :</th>
+                                          <td class="text-end">
+                                              <span class="fw-bold" id="card-total"></span>
+                                          </td>
+                                      </tr>
+                                  </tbody>
+                              </table>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
   </div>
+  </main>
   <script src="./cart.js"></script>
+  <script src="navbar.js"></script>
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
  </body>
 </html>

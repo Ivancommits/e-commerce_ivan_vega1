@@ -16,7 +16,7 @@ let data = [{
   "title": "Guitarra Criolla Clasica Color Negro",
   "Detail": "Guitarra Criolla Clásica en diversos colores, incluye funda",
   "img": "https://http2.mlstatic.com/D_NQ_NP_774542-MLU75918870442_042024-O.webp",
-  "price": "$ 81.278" ,
+  "price": "$ 81278" ,
   "stock": 45,
   "category": "guitarras"
 }, {
@@ -24,7 +24,7 @@ let data = [{
   "title": "Guitarra Acústica Parquer Master T",
   "Detail": "Disfrutá con esta guitarra Parquer de la conexión con la música. Está diseñada para aficionados y profesionales. Con este instrumento descubrirás nuevos acordes, entonarás tus canciones y disfrutarás de la vida musical. Un modelo para cada guitarrista. La tapa de abeto genera un tono brillante y claro, incluso en los registros más agudos. Calidad que se hace notar.",
   "img": "https://http2.mlstatic.com/D_NQ_NP_619349-MLU73600344414_122023-O.webp",
-  "price": "$282.281",
+  "price": "$282281",
   "stock": 45,
   "category": "guitarras"
 }, {
@@ -32,7 +32,7 @@ let data = [{
   "title": "Pack Guitarra Acustica Fender Fa-125",
   "Detail": "El paquete FA-125 ofrece un excelente sonido Fender y un valor tremendo para cualquiera que busque comenzar su viaje musical con el pie derecho. Este paquete incluye una guitarra acústica dreadnought FA-125 de rico sonido, junto con un soporte, afinador digital, púas, un paquete de cuerdas de repuesto y una suscripción gratuita de 90 días a Fender Play con acceso a cientos de lecciones en línea: todo lo que necesitas. Necesitas empezar a jugar al instante.",
   "img": "https://http2.mlstatic.com/D_NQ_NP_860141-MLU73489147342_122023-O.webp",
-  "price": "$ 327.900",
+  "price": "$ 327900",
   "stock": 45,
   "category": "guitarras"
 }, {
@@ -40,14 +40,14 @@ let data = [{
   "title": "Guitarra eléctrica Fender Player Stratocaster de aliso 2010 3-color",
   "Detail": "Hablar de Fender es entender la música en todo el mundo y en muchos géneros. Es una de las marcas líderes en definir los sonidos que escuchamos. A su vez, satisface las necesidades de guitarristas al crear productos de calidad y respaldarlos con servicio y estabilidad.",
   "img": "https://http2.mlstatic.com/D_NQ_NP_668933-MLA74781913203_022024-O.webp",
-  "price": "$ 2.718.230",
+  "price": "2718230",
   "stock": 50,
 "category": "guitarras"}, {
   "id": 5,
   "title": "Guitarra eléctrica Squier by Fender Bullet Stratocaster HT",
   "Detail": "Disfrutá con esta guitarra Squier by Fender Bullet de la conexión con la música. Con este instrumento descubrirás nuevos acordes, entonarás tus canciones y disfrutarás de la vida musical. Explorá, amplificá tu creatividad y desarrollá tu pasión.",
   "img": "https://http2.mlstatic.com/D_NQ_NP_889545-MLU75128427037_032024-O.webp",
-  "price": "$ 446.975",
+  "price": "$ 446975",
   "stock": 5,
   "category": "guitarras"
 }, {
@@ -55,14 +55,14 @@ let data = [{
   "title": "Guitarra Eléctrica Newen Frizz Lenga Maciza Patagónica",
   "Detail": "Se caracteriza por su exclusivo y propio diseño. Su característico sonido se obtiene desde sus micrófonos Paradynamic y su madera maciza. Este cuerpo totalmente construido de madera solida de la Patagonia, le proporciona una sonoridad muy rica en armónicos y sustain. El mango construido en maple con trastera de palo rosa posee un alma de acero que le otorga mayor estabilidad en la calibración y afinación.",
   "img": "https://http2.mlstatic.com/D_NQ_NP_785302-MLA53367428738_012023-O.webp",
-  "price": "$ 195.800",
+  "price": "$195800",
   "stock": 4,
 "category": "guitarras"}, {
   "id": 7,
   "title": "Guitarra eléctrica Gibson Skay Collection SG",
   "Detail": "Gibson es una de las marcas con mayor tradición en el mercado: más de 100 años en la fabricación de guitarras. Se fundamenta a la calidad, la innovación y la excelencia del sonido para que los amantes de la música disfruten la compañía de una Gibson.",
   "img": "https://http2.mlstatic.com/D_NQ_NP_987646-MLA74782155663_022024-O.webp",
-  "price": "$ 4.704.512",
+  "price": " 4704512",
   "stock": 1,
   "category": "guitarras"
 }, {
@@ -70,7 +70,7 @@ let data = [{
   "title": "Amplificador Ross G10 De 10 Watts Para Guitarra Electrica Color Negro/Amarillo",
   "Detail": "Con tu amplificador vas a poder mejorar todos los sonidos y encontrar las melodías que estás buscando. Aprovechalo al máximo. Si lo que estás buscando es un equipo más ligero, resistente y potente, este amplificador de tipo transistor es ideal para vos.",
   "img": "https://http2.mlstatic.com/D_NQ_NP_922590-MLU78482685187_082024-O.webp",
-  "price": "$ 103.990",
+  "price": "$ 103990",
   "stock": 15,
   "category": "amplificadores"
 }, {
@@ -78,7 +78,7 @@ let data = [{
   "title": "Amplificador Ross B15 Para Bajo De 15w Color Negro C",
   "Detail": "Con tu amplificador vas a poder mejorar todos los sonidos y encontrar las melodías que estás buscando. Aprovechalo al máximo. Si lo que estás buscando es un equipo más ligero, resistente y potente, este amplificador de tipo transistor es ideal para vos.",
   "img": "https://http2.mlstatic.com/D_NQ_NP_917835-MLU78211819458_082024-O.webp",
-  "price": "$ 159.535",
+  "price": "$ 159535",
   "stock": 23,
   "category": "amplificadores"
 }, {
@@ -86,7 +86,7 @@ let data = [{
   "title": "Amplificador Marshall Mg Gold Mg15 Transistor Para Guitarra De 15w Color Negro 220v",
   "Detail": "Marshall, fabricante líder en el mercado de los instrumentos musicales, acompaña a bandas y músicos en todo el mundo desde 1962. La empresa se destaca no solo por la calidad de sus productos, sino también por el impacto social, haciendo la diferencia para muchas comunidades a través de la música.",
   "img": "https://http2.mlstatic.com/D_NQ_NP_868315-MLU76720666320_062024-O.webp",
-  "price": "$ 288.744",
+  "price": "$ 288744",
   "stock": 45,
   "category": "amplificadores"
 }, {
@@ -94,7 +94,7 @@ let data = [{
   "title": "Amplificador Marshall MG Gold MG30FX Transistor para guitarra de 30W",
   "Detail": "Marshall, fabricante líder en el mercado de los instrumentos musicales, acompaña a bandas y músicos en todo el mundo desde 1962. La empresa se destaca no solo por la calidad de sus productos, sino también por el impacto social, haciendo la diferencia para muchas comunidades a través de la música.",
   "img": "https://http2.mlstatic.com/D_NQ_NP_868568-MLU77629909828_072024-O.webp",
-  "price": "$ 485.270",
+  "price": "$ 485270",
   "stock": 2,
   "category": "amplificadores"
 }, {
@@ -173,7 +173,7 @@ let data = [{
   "title": "Bajo Electrico Squier By Fender Sonic Bronco Bass",
   "Detail": "Marca Fender.",
   "img": "https://http2.mlstatic.com/D_NQ_NP_616764-MLU73701559951_122023-O.webp",
-  "price": "$ 595.964",
+  "price": "$ 595964",
   "stock": 13,
   "category": "bajos"
 }, {
@@ -232,10 +232,8 @@ const card1 = `<div class="card" style="width: 18rem;">
   </div>
 </div>`;
 
-let cart = JSON.parse(localStorage.getItem("cart"));
-if(!cart){ 
-  cart = [];
-}
+let cart = JSON.parse(localStorage.getItem("cart")) || [];
+
 document.querySelector(".container").innerHTML = card1;
 let input = document.querySelector("#producto main input");
 function addButton() {
@@ -256,11 +254,11 @@ function addButton() {
 
 
 function addProductToCart() {
-  console.log(cart)
 if(cart.length === 0) {
   if(parseInt(input.value) > prodEncontrado.stock) {
     alert("No hay suficiente stock");
   } else {
+    prodEncontrado.price = parseInt(prodEncontrado.price.split("$")[1])
     cart.push({prod:prodEncontrado, quantity: parseInt(input.value)})
     return localStorage.setItem("cart", JSON.stringify(cart));
   }
@@ -269,6 +267,7 @@ if(cart.length === 0) {
 let existingItemIndex = cart.findIndex((card1) => card1.prod.id == prodEncontrado.id);
 const foundItem = cart[existingItemIndex];
 if (!foundItem) {
+  prodEncontrado.price = parseInt(prodEncontrado.price.split("$")[1])
   cart.push({prod:prodEncontrado, quantity: parseInt(input.value)})
     return localStorage.setItem("cart", JSON.stringify(cart));
 }

@@ -1,5 +1,5 @@
 let cantidadTotal = 0;
-let sessionCart = JSON.parse(localStorage.getItem("cart"))
+let sessionCart = JSON.parse(localStorage.getItem("cart")) || [];
 for (let y = 0; y < sessionCart.length; y++) {
  cantidadTotal += sessionCart[y].quantity;
 }
@@ -18,9 +18,9 @@ let menu = `<link href="./styles.css" rel="stylesheet">
         <button class="btn btn-outline-success boton" type="submit">Search</button>
               </div>
         <div>
-        <p class="username">Bienvenido, ${localStorage.getItem("session")}
+        <p class="username">Bienvenido,${localStorage.getItem("session")}
         </div>
-        <span></span><li><a href="cart.html"><img height="25" src="cart.png" alt="Comprar"/></a><b class="cantidadproducto">${sessionCart ? cantidadTotal : "0"}</b></li></span>
+        <span></span><li><a href="/cart.html"><img height="25" src="cart.png" alt="Comprar"/></a><b class="cantidadproducto">${sessionCart ? cantidadTotal : "0"}</b></li></span>
           </div>
         </div>
         <div class="Instrumentos">    
